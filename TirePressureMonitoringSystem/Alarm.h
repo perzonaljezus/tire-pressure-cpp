@@ -1,15 +1,18 @@
 #ifndef ALARM_H
 #define ALARM_H
 
+#include "Sensor.h"
+
 class Alarm {
 public:
+	Alarm();
 	void check();
 	bool isAlarmOn();
 private:
-	const double LowPressureThreshold = 17;
-	const double HighPressureThreshold = 21;
-	Sensor sensor = new Sensor;
-	bool alarmOn = false;
+	static const double LowPressureThreshold;
+	static const double HighPressureThreshold;
+	Sensor* sensor;
+	bool alarmOn;
 };
 
 #endif /* ALARM_H */

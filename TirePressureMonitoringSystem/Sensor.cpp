@@ -14,3 +14,5 @@ double Sensor::samplePressure() {
 	double pressureTelemetryValue = 6 * uniform(engine) * uniform(engine);
 	return pressureTelemetryValue;
 }
+
+const double Sensor::OFFSET = 16;

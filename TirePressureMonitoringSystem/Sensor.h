@@ -5,7 +5,7 @@
 
 class Sensor {
 public:
-	static const double OFFSET = 16;
+	static const double OFFSET;
 	double popNextPressurePsiValue();
 
 private:
