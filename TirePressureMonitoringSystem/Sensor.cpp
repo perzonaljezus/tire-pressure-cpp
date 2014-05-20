@@ -9,8 +9,8 @@ double Sensor::popNextPressurePsiValue() {
 
 double Sensor::samplePressure() {
 	// placeholder implementation that simulate a real sensor in a real tire
-	std::default_random_engine engine;
-	std::uniform_real_distribution<double> uniform(0,1);
+	static std::default_random_engine engine;
+	static std::uniform_real_distribution<double> uniform(0, 1);
 	double pressureTelemetryValue = 6 * uniform(engine) * uniform(engine);
 	return pressureTelemetryValue;
 }

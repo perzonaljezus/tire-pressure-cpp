@@ -1,6 +1,7 @@
 #ifndef ALARM_H
 #define ALARM_H
 
+#include "gtest/gtest.h"
 #include "Sensor.h"
 
 class Alarm {
