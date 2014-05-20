@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{881213CC-FA34-494D-B836-E5295695B32F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

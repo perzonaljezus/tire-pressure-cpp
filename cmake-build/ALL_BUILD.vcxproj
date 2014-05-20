@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5A2F102A-6B15-4AF5-80C5-C962465CD96C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\include;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\include;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\include;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\include;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0 -BC:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build --check-stamp-file C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeVS11FindMake.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\cmake\internal_utils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPythonInterp.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0 -BC:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build --check-stamp-file C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeVS11FindMake.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\cmake\internal_utils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPythonInterp.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0 -BC:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build --check-stamp-file C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeVS11FindMake.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\cmake\internal_utils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPythonInterp.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"c:\Program Files\CMake 2.8\bin\cmake.exe" -HC:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0 -BC:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build --check-stamp-file C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeVS11FindMake.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\cmake\internal_utils.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPythonInterp.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindThreads.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\965b1b02b4ba61e6d440467583b33157\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/965b1b02b4ba61e6d440467583b33157/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/965b1b02b4ba61e6d440467583b33157/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/965b1b02b4ba61e6d440467583b33157/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/965b1b02b4ba61e6d440467583b33157/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/ZERO_CHECK.vcxproj">
+      <Project>2B898D27-986E-4EE9-8293-E2DF792C1487</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/gtest.vcxproj">
+      <Project>1F844245-5427-4949-A0A0-ECFF173E448E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/gtest_main.vcxproj">
+      <Project>D0525741-9B3B-47E2-B56D-91FCD3F9CA7A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample10_unittest.vcxproj">
+      <Project>3FF94CFB-82D5-430C-A9AD-BBEC63E9B4C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample1_unittest.vcxproj">
+      <Project>DA1C1412-A943-4BB4-9ECE-AE70DCAF4643</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample2_unittest.vcxproj">
+      <Project>240FFE2D-77A7-4653-B686-8E6B253108FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample3_unittest.vcxproj">
+      <Project>DCA63DAA-5EB6-41AF-8734-E657BCD97966</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample4_unittest.vcxproj">
+      <Project>07F64382-9DF5-4021-8CC7-8FBD5289F18C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample5_unittest.vcxproj">
+      <Project>691639FA-4B27-4D7E-8006-3E9A12D8322B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample6_unittest.vcxproj">
+      <Project>DB70A904-5C31-42A0-AC56-CF9C037E253D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample7_unittest.vcxproj">
+      <Project>40BC6770-A135-4DDF-9A35-4919B77733A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample8_unittest.vcxproj">
+      <Project>6C46F6E6-E4D3-4664-9F2C-129D70CCF5EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/sample9_unittest.vcxproj">
+      <Project>33470810-0ED0-4B0B-8393-EFE1C4A26B11</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

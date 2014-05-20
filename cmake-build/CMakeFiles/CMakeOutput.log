@@ -1,0 +1,119 @@
+The system is: Windows - 6.1 - x86
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CompilerIdCXX, Configuration: Debug Win32 ------
+  CMakeCXXCompilerId.cpp
+  CompilerIdCXX.vcxproj -> C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CompilerIdCXX\.\CompilerIdCXX.exe
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CompilerIdC, Configuration: Debug Win32 ------
+  CMakeCCompilerId.c
+  CompilerIdC.vcxproj -> C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\2.8.12.2\CompilerIdC\.\CompilerIdC.exe
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2311360612
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec2311360612, Configuration: Debug Win32 ------
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2311360612.dir\Debug\\" /Fd"cmTryCompileExec2311360612.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+  cmTryCompileExec2311360612.vcxproj -> C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2311360612.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2632948537
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec2632948537, Configuration: Debug Win32 ------
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2632948537.dir\Debug\\" /Fd"cmTryCompileExec2632948537.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+  cmTryCompileExec2632948537.vcxproj -> C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2632948537.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec285596091
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec285596091, Configuration: Debug Win32 ------
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec285596091.dir\Debug\\" /Fd"cmTryCompileExec285596091.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt testCCompiler.c
+  
+  testCCompiler.c
+  cmTryCompileExec285596091.vcxproj -> C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec285596091.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~1\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2192563809
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.50727.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: cmTryCompileExec2192563809, Configuration: Debug Win32 ------
+  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.50727.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2192563809.dir\Debug\\" /Fd"cmTryCompileExec2192563809.dir\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "c:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+  cmTryCompileExec2192563809.vcxproj -> C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2192563809.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+

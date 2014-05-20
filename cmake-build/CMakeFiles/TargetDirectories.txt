@@ -1,0 +1,14 @@
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/gtest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/gtest_main.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample10_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample1_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample2_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample3_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample4_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample5_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample6_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample7_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample8_unittest.dir
+C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/sample9_unittest.dir
