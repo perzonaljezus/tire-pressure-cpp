@@ -32,6 +32,9 @@ protected:
   // Objects declared here can be used by all tests in the test case for Alarm.
 };
 
+// TODO: the alarm will be on if the pressure value is out of range
+// TODO: the alarm will be off if the pressure value is normal
+// TODO: the alarm will still be on if a normal pressure value comes after an out of range one
 TEST_F(AlarmTest, CharacterizationTest) {
   Alarm alarm;
   alarm.check();
