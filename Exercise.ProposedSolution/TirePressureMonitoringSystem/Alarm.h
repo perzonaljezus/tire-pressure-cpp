@@ -8,6 +8,7 @@
 class Alarm {
 public:
 	Alarm();
+	Alarm(Transducer *transducer);
 	void check();
 	bool isAlarmOn();
 private:
