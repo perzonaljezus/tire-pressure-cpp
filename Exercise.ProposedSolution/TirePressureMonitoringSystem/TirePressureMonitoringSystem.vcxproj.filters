@@ -24,12 +24,21 @@
     <ClCompile Include="Alarm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StubSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Alarm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StubSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transducer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

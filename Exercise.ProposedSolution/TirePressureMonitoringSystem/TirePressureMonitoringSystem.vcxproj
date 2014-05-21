@@ -14,10 +14,13 @@
     <ClCompile Include="Alarm.cpp" />
     <ClCompile Include="AlarmTest.cpp" />
     <ClCompile Include="Sensor.cpp" />
+    <ClCompile Include="StubSensor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Alarm.h" />
     <ClInclude Include="Sensor.h" />
+    <ClInclude Include="StubSensor.h" />
+    <ClInclude Include="Transducer.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\cmake-build\gtest.vcxproj">
