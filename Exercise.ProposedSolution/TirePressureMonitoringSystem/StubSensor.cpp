@@ -5,5 +5,5 @@ void StubSensor::setStubPressureValue(double pressureValue) {
 }
 
 double StubSensor::popNextPressurePsiValue() {
-	return 0.0;
+	return stubPressureValue;
 }
