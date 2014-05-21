@@ -17,7 +17,9 @@ Alarm::Alarm() {
 	alarmOn = false;
 }
 
-Alarm::Alarm(Transducer* transducer) {
+Alarm::Alarm(Transducer* _transducer) {
+	transducer = _transducer;
+	alarmOn = false;
 }
 
 const double Alarm::LowPressureThreshold = 17;
