@@ -60,6 +60,21 @@ TEST_F(AlarmTest, the_alarm_will_be_off_if_the_pressure_value_is_normal) {
 }
 
 // TODO: the alarm will still be on if a normal pressure value comes after an out of range one
+TEST_F(AlarmTest, the_alarm_will_still_be_on_if_a_normal_pressure_value_comes_after_an_out_of_range_one) {
+
+  // Arrange
+  StubSensor *stubSensor = new StubSensor;
+  stubSensor->setStubPressureValue(17, 16, 17);
+  Alarm *alarm = new Alarm(stubSensor);
+
+  // Act
+  alarm->check();
+  alarm->check();
+  alarm->check();
+
+  // Assert
+  EXPECT_TRUE(alarm->isAlarmOn());
+}
 
 }  // namespace
 
