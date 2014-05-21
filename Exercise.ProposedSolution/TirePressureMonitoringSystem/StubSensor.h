@@ -6,6 +6,7 @@
 class StubSensor : public Transducer {
 public:
 	void setStubPressureValue(double pressureValue);
+	double popNextPressurePsiValue() override;
 };
 
 #endif /* STUBSENSOR_H */

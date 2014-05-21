@@ -3,6 +3,8 @@
 
 #include "gtest/gtest.h"
 #include "Transducer.h"
+#include "Sensor.h"
+#include "StubSensor.h"
 
 class Alarm {
 public:
