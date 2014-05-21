@@ -32,14 +32,22 @@ protected:
   // Objects declared here can be used by all tests in the test case for Alarm.
 };
 
-// TODO: the alarm will be on if the pressure value is out of range
+// TODO-working-on: the alarm will be on if the pressure value is out of range
+TEST_F(AlarmTest, the_alarm_will_be_on_if_the_pressure_value_is_out_of_range) {
+  // Arrange
+  StubSensor *stubSensor = new StubSensor;
+  stubSensor->setStubPressureValue(17 - 1);
+  Alarm *alarm = new Alarm(stubSensor);
+
+  // Act
+  alarm->check();
+
+  // Assert
+  EXPECT_EQ(true, alarm->isAlarmOn());
+}
+
 // TODO: the alarm will be off if the pressure value is normal
 // TODO: the alarm will still be on if a normal pressure value comes after an out of range one
-TEST_F(AlarmTest, CharacterizationTest) {
-  Alarm alarm;
-  alarm.check();
-  EXPECT_EQ(true, alarm.isAlarmOn());
-}
 
 }  // namespace
 
