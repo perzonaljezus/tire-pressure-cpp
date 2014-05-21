@@ -2,8 +2,7 @@
 #define ALARM_H
 
 #include "gtest/gtest.h"
-#include "Sensor.h"
-#include "StubSensor.h"
+#include "Transducer.h"
 
 class Alarm {
 public:
@@ -14,7 +13,7 @@ public:
 private:
 	static const double LowPressureThreshold;
 	static const double HighPressureThreshold;
-	Sensor* sensor;
+	Transducer* transducer;
 	bool alarmOn;
 };
 
