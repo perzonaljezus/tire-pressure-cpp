@@ -2,6 +2,7 @@
 #define STUBSENSOR_H
 
 #include "Transducer.h"
+#include <queue>
 
 class StubSensor : public Transducer {
 public:
@@ -11,6 +12,7 @@ public:
 
 private:
 	double stubPressureValue;
+	std::queue<double> queue;
 };
 
 #endif /* STUBSENSOR_H */
