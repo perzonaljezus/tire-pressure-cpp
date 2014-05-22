@@ -32,11 +32,15 @@ protected:
   // Objects declared here can be used by all tests in the test case for Alarm.
 };
 
-TEST_F(AlarmTest, dummy_test) {
-  EXPECT_TRUE(true);
-}
-
 // TODO: the alarm should be on if the pressure value is out of range
+TEST_F(AlarmTest, the_alarm_should_be_on_if_the_pressure_value_is_out_of_range) {
+  // Arrange
+
+  // Act
+
+  // Assert
+  EXPECT_TRUE(alarm->isAlarmOn());
+}
 
 // TODO: the alarm should be off if the pressure value is normal
 
