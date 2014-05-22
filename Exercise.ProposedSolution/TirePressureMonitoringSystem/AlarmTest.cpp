@@ -35,8 +35,12 @@ protected:
 // TODO: the alarm should be on if the pressure value is out of range
 TEST_F(AlarmTest, the_alarm_should_be_on_if_the_pressure_value_is_out_of_range) {
   // Arrange
+  StubSensor *stubSensor = new StubSensor;
+  stubSensor->setStubPressureValue(22);
+  Alarm *alarm = new Alarm(stubSensor);
 
   // Act
+  alarm->check();
 
   // Assert
   EXPECT_TRUE(alarm->isAlarmOn());
