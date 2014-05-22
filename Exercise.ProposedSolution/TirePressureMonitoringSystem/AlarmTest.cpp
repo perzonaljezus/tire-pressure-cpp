@@ -1,4 +1,6 @@
 #include "gtest/gtest.h"
+#include "StubSensor.h"
+
 
 namespace {
 

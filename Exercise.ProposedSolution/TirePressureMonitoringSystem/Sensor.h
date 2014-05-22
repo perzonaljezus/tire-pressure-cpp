@@ -3,6 +3,7 @@
 
 #include <random>
 
+// TODO: Inherit Transducer
 class Sensor {
 public:
 	static const double OFFSET;
