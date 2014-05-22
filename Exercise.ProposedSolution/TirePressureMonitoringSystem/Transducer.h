@@ -3,7 +3,7 @@
 
 class Transducer {
 public:
-  double popNextPressurePsiValue();
+  double virtual popNextPressurePsiValue() = 0;
 };
 
 #endif /* TRANSDUCER_H */
