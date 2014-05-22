@@ -1,5 +1,6 @@
 #include "gtest/gtest.h"
 #include "StubSensor.h"
+#include "Alarm.h"
 
 
 namespace {
