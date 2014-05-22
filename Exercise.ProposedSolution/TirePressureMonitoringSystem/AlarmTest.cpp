@@ -36,8 +36,13 @@ TEST_F(AlarmTest, dummy_test) {
   EXPECT_TRUE(true);
 }
 
-}  // namespace
+// TODO: the alarm should be on if the pressure value is out of range
 
+// TODO: the alarm should be off if the pressure value is normal
+
+// TODO: the alarm should still be on if a normal pressure value comes after an out of range one
+
+}  // namespace
 
 GTEST_API_ int main(int argc, char **argv) {
   printf("Running main() from gtest_main.cc\n");
