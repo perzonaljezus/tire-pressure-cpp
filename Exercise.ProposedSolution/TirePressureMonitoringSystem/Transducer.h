@@ -3,4 +3,5 @@
 
 class Transducer {
 };
-#endif
+
+#endif /* TRANSDUCER_H */

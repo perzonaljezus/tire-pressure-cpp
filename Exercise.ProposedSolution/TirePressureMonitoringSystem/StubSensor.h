@@ -1,7 +1,8 @@
 #ifndef STUBSENSOR_H
 #define STUBSENSOR_H
 
-// TODO: declare Transducer
+#include "Transducer.h"
+
 class StubSensor : public Transducer {
 public:
   void setStubPressureValue(double);
