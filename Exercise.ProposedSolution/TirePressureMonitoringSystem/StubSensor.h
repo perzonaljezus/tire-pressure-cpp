@@ -6,7 +6,7 @@
 class StubSensor : public Transducer {
 public:
   void setStubPressureValue(double);
-  double popNextPressurePsiValue();
+  double popNextPressurePsiValue() override;
 
 private:
   double stubPressureValue;
