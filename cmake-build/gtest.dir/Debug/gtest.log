@@ -1,16 +1,5 @@
-﻿Build started 2014/5/21 23:33:45.
-Project "C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\gtest.vcxproj" on node 2 (Rebuild target(s)).
-CustomBuild:
-  Building Custom Rule C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt
-  CMake does not need to re-run because C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp is up-to-date.
-ClCompile:
-  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\include" /I"C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0" /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _VARIADIC_MAX=10 /D WIN32 /D _WINDOWS /D _VARIADIC_MAX=10 /D _DEBUG /D WIN32 /D _WINDOWS /D _UNICODE /D UNICODE /D WIN32 /D _WIN32 /D STRICT /D WIN32_LEAN_AND_MEAN /D GTEST_HAS_PTHREAD=0 /D _HAS_EXCEPTIONS=1 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gtest.dir\Debug\\" /Fd"gtest.dir\Debug\vc110.pdb" /Gd /TP /wd4127 /wd4251 /wd4275 /analyze- /errorReport:prompt  -J "C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\src\gtest-all.cc"
-  gtest-all.cc
-Lib:
-  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\Debug\gtest.lib" /NOLOGO "gtest.dir\Debug\gtest-all.obj"
-  gtest.vcxproj -> C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\Debug\gtest.lib
-Done Building Project "C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\gtest.vcxproj" (Rebuild target(s)).
+﻿Build started 2014/5/22 18:36:55.
 
 Build succeeded.
 
-Time Elapsed 00:00:26.30
+Time Elapsed 00:00:00.34

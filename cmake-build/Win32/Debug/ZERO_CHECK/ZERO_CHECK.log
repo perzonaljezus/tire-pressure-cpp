@@ -1,10 +1,5 @@
-﻿Build started 2014/5/21 23:33:42.
-Project "C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
-CustomBuild:
-  Checking Build System
-  CMake does not need to re-run because C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/CMakeFiles/generate.stamp is up-to-date.
-Done Building Project "C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+﻿Build started 2014/5/22 18:36:56.
 
 Build succeeded.
 
-Time Elapsed 00:00:02.00
+Time Elapsed 00:00:00.27

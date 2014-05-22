@@ -22,7 +22,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Alarm.cpp" />
     <ClCompile Include="AlarmTest.cpp" />
+    <ClCompile Include="Sensor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alarm.h" />
+    <ClInclude Include="Sensor.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{829656B4-903D-4068-930D-B8A43782171A}</ProjectGuid>

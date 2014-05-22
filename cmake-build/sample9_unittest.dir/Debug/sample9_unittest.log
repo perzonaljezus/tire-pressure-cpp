@@ -1,16 +1,5 @@
-﻿Build started 2014/5/21 23:38:33.
-Project "C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\sample9_unittest.vcxproj" on node 2 (Rebuild target(s)).
-CustomBuild:
-  Building Custom Rule C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/gtest-1.7.0/CMakeLists.txt
-  CMake does not need to re-run because C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\CMakeFiles\generate.stamp is up-to-date.
-ClCompile:
-  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\include" /I"C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0" /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _VARIADIC_MAX=10 /D WIN32 /D _WINDOWS /D _VARIADIC_MAX=10 /D _DEBUG /D WIN32 /D _WINDOWS /D _UNICODE /D UNICODE /D WIN32 /D _WIN32 /D STRICT /D WIN32_LEAN_AND_MEAN /D GTEST_HAS_PTHREAD=0 /D _HAS_EXCEPTIONS=1 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"sample9_unittest.dir\Debug\\" /Fd"sample9_unittest.dir\Debug\vc110.pdb" /Gd /TP /wd4127 /wd4251 /wd4275 /analyze- /errorReport:prompt  -J "C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\gtest-1.7.0\samples\sample9_unittest.cc"
-  sample9_unittest.cc
-Link:
-  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\Debug\sample9_unittest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/src" /LIBPATH:"C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/src/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\gtest.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/Debug/sample9_unittest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Susan/OOR/katas/remote/tire-pressure-cpp/cmake-build/Debug/sample9_unittest.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug sample9_unittest.dir\Debug\sample9_unittest.obj
-  sample9_unittest.vcxproj -> C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\Debug\sample9_unittest.exe
-Done Building Project "C:\Users\Susan\OOR\katas\remote\tire-pressure-cpp\cmake-build\sample9_unittest.vcxproj" (Rebuild target(s)).
+﻿Build started 2014/5/22 18:36:40.
 
 Build succeeded.
 
-Time Elapsed 00:00:34.67
+Time Elapsed 00:00:00.73
