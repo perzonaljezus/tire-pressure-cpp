@@ -14,7 +14,7 @@ public:
 private:
 	static const double LowPressureThreshold;
 	static const double HighPressureThreshold;
-	Sensor* sensor;
+  Transducer* transducer;
 	bool alarmOn;
 };
 
